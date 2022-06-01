@@ -16,7 +16,7 @@ public class Spammer {
 		Robot R = new Robot();
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("\t\t" + "<< Welcome welcome >>" + "\n");
+		System.out.println("\t\t" + "<< Welcome to Spammer bot >>" + "\n");
 		
 		System.out.print("Enter the message you want to send : ");
 		Text = scan.nextLine();
