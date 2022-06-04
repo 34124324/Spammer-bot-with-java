@@ -6,7 +6,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.util.Scanner;
 
-public class Spammer {
+public class Bot {
 	
 	public static void main(String[] args) throws AWTException, InterruptedException {
 		String Text;
@@ -16,7 +16,7 @@ public class Spammer {
 		Robot R = new Robot();
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("\t\t" + "<< Welcome to Spammer bot >>" + "\n");
+		System.out.println("\t\t" + "<< Welcome to Spambot >>" + "\n");
 		
 		System.out.print("Enter the message you want to send : ");
 		Text = scan.nextLine();
@@ -28,9 +28,9 @@ public class Spammer {
 		CB.setContents(SS, null);
 		scan.close();
 		
-		System.out.println("\n" + "!!! The Spamming will start in 10 seconds !!!");
+		System.out.println("\n" + "!!! The Spamming will start in 5 seconds !!!");
 		
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	
 		while(X <= M) {
 			
